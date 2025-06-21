@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imgNewsItem"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/txtHeadline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is the Sample News Headline, making sure it does not goes over the image"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtArticleNews"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Full article content goes here" />
+</LinearLayout>
